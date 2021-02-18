@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.layoutOut {
+    height : 100% ;
+    width : 50% ;
+    margin: auto ;
+    display: flex ;
+    align-items : center ;
+    justify-content : center ;
+    flex-direction : column ;
+}
+
+.layout-canvas{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #e2e2e2;
+    height: 100%;
+    width: 100%;
+    padding: 20 px ;
+    overflow-y : scroll ;
+}
+.layout-left-side{
+    width: 50%;
+    font-size: 22px;
+    background-color: deepskyblue;
+    display: flex;
+}
+.layout-right-side{
+    width: 100%;
+    font-size: 22px;
+    background-color: deepskyblue;
+    /* display: flex; */
+}
